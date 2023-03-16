@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-200">
+    <!-- header start -->
+    <header>
+        <section class="mx-auto w-11/12">
+            <h1 class="text-center bg-cyan-600 text-white p-4 mt-4 text-3xl rounded">My Blog</h1>
+        </section>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+        <section class="mx-auto w-11/12 mt-16">
+            <div class="question-one">
+                <h3 class="text-2xl">1. What is difference between map, filter, ForEach, and find methods ? </h3>
+            <h4 class="mt-4" ><u class="text-lg"><em>Ans:</em></u>  Map, Foreach, Filter and Find are all JavaScript methods. Some differences exist between them. For example,<br><span>Map: If map method is invoked on an array, the map method takes all the objects from this array ito a new  array and returns it.</span><br>`<span>ForEach: forEach method fetches all objects from an array but does not assign a new array and returns nothing</span><br><span>Filter: When the filter method is invoked on an array, filter method checks the objects in the array against the condition, returning only those objects that match the condition.</span><br><span>Find: filter method and find method work the same way. Just find method returns the first object in the array that match the condition</span>
+            </h4>
+            </div>
+            <div class="question-one mt-6">
+                <h3 class="text-2xl">2. What is difference between local storage and session storage ? </h3>
+            <h4 class="mt-4" ><u class="text-lg"><em>Ans:</em></u>  Local storage and session storage are the same thing. They store browsing data. the difference between them is that local storage store browsing data permanently, on the other hand session storage store browsing data temporarily, which is deleted when the browser reloads.</h4>
+            </div>
+            <div class="question-one mt-6">
+                <h3 class="text-2xl">3. What is event loop and how it works ? </h3>
+            <h4 class="mt-4" ><u class="text-lg"><em>Ans:</em></u>  The Event Loop has one simple job to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</h4>
+            </div>
+        </section>
+        
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="mx-auto w-11/12 mt-16  mb-3">
+        <h1 class="text-center bg-cyan-600 text-white p-2  text-xl rounded">Copyright &copy; 2023</h1>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js file -->
+    <script src="index.js"></script>
+</body>
+</html>
